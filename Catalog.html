@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+ 
+<head>
+    <meta charset="utf-8">
+    <title>ВСЕ ИЗДЕЛИЯ</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+</head>
+
+    <body>
+        <header id="header">
+            <div class="container">
+        
+                <nav class="header_nav">
+        
+                  <div class="logo">
+                    <a href="index.html"><img src="img/Logo_MNRL.png" alt="Logo_MNRL"></a>
+                  </div>
+        
+                  <div>
+                    <ul class="nav">
+                      <li><a href="index.html">НА ГЛАВНУЮ</a></li>
+                      <li><a href="Catalog.html">ВСЕ ИЗДЕЛИЯ</a></li>
+                      <li><a href="About.html">О НАС</a></li>
+                    </ul>
+                  </div>
+                                          
+                </nav>
+        
+            </div>
+    </header>
+
+
+    
+    <main>
+        <div class="container">
+
+            <div class="catalog_and_filters">
+                <aside class="filters">
+
+                    <div class="type">
+                        <h4>ТИП</h4>
+                        
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_1" class="custom_checkbox">
+                            <label for="type_checkbox_1">Браслеты</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_2" class="custom_checkbox">
+                            <label for="type_checkbox_2">Кольца</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_3" class="custom_checkbox">
+                            <label for="type_checkbox_3">Серьги</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_4" class="custom_checkbox">
+                            <label for="type_checkbox_4">Подвески</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_5" class="custom_checkbox">
+                            <label for="type_checkbox_5">Ожерелья</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_6" class="custom_checkbox">
+                            <label for="type_checkbox_6">Цепи</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_7" class="custom_checkbox">
+                            <label for="type_checkbox_7">Колье</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_7.1" class="custom_checkbox">
+                            <label for="type_checkbox_7.1">Кафф</label>
+                        </div>
+
+                    </div>
+
+                    <div class="type">
+                        <h4>МАТЕРИАЛ</h4>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_8" class="custom_checkbox">
+                            <label for="type_checkbox_8">Золото</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_8.1" class="custom_checkbox">
+                            <label for="type_checkbox_8.1">Позолота</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_9" class="custom_checkbox">
+                            <label for="type_checkbox_9">Серебро</label>
+                        </div>
+                    </div>
+
+                    <div class="type">
+                        <h4>ЦЕНА</h4>
+
+                        <div class="price_range">
+                            <div class="input_price">
+                                <p>от</p><input type="text" placeholder="0">
+                            </div>
+
+                            <div class="input_price">
+                                <p>до</p><input type="text" placeholder="120 000">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="type">
+                        <h4>КОЛЛЕКЦИИ</h4>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_10" class="custom_checkbox">
+                            <label for="type_checkbox_10">Mother Earth</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_11" class="custom_checkbox">
+                            <label for="type_checkbox_11">Ancien Soul</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_12" class="custom_checkbox">
+                            <label for="type_checkbox_12">Anima Mundi</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_13" class="custom_checkbox">
+                            <label for="type_checkbox_13">Aho Snakes</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_14" class="custom_checkbox">
+                            <label for="type_checkbox_14">Basic</label>
+                        </div>
+                    </div>
+                    
+                    <div class="type">
+                        <h4>СПЕЦПРЕДЛОЖЕНИЯ</h4>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_15" class="custom_checkbox">
+                            <label for="type_checkbox_15">NEW</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_16" class="custom_checkbox">
+                            <label for="type_checkbox_16">LAST CHANCE</label>
+                        </div>
+                    </div>
+                    
+                    <div class="type">
+                        <h4>ВСТАВКА</h4>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_17" class="custom_checkbox">
+                            <label for="type_checkbox_17">Без вставки</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_18" class="custom_checkbox">
+                            <label for="type_checkbox_18">Жемчуг</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_19" class="custom_checkbox">
+                            <label for="type_checkbox_19">Лунный камень</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_20" class="custom_checkbox">
+                            <label for="type_checkbox_20">Празиолит</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_21" class="custom_checkbox">
+                            <label for="type_checkbox_21">Кварц</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="type_checkbox_22" class="custom_checkbox">
+                            <label for="type_checkbox_22">Лимонный Кварц</label>
+                        </div>
+                    </div>
+
+                </aside>
+                
+                <div class="catalog_page">
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_1">
+                                <img src="img/catalog/goods_1_1.jpg" alt="goods_1_1">
+                            </div>
+
+                            <p>Браслет GAURRI серебро</p>
+                            <p>24 890 pуб.</p>
+                        </a>
+
+                    </div>
+                    
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_2">
+                                <img src="img/catalog/goods_2_1.jpg" alt="goods_2_1">
+                            </div>
+
+                            <p>Мини КАРАБИН серебро</p>
+                            <p>3 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_3">
+                                <img src="img/catalog/goods_3_1.jpg" alt="goods_3_1">
+                            </div>
+
+                            <p>Кольцо UNIVERSE серебро с Лунным камнем</p>
+                            <p>7 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_4">
+                                <img src="img/catalog/goods_4_1.jpg" alt="goods_4_1">
+                            </div>
+
+                            <p>Серьги SEHMET MINI серебро</p>
+                            <p>15 790 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_5">
+                                <img src="img/catalog/goods_5_1.jpg" alt="goods_5_1">
+                            </div>
+
+                            <p>Кольцо UNDINE с Празиолитом серебро</p>
+                            <p>34 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_6">
+                                <img src="img/catalog/goods_6_1.jpg" alt="goods_6_1">
+                            </div>
+
+                            <p>Кольцо PAMUYA серебро</p>
+                            <p>15 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_7">
+                                <img src="img/catalog/goods_7_1.jpg" alt="goods_7_1">
+                            </div>
+
+                            <p>Серьги NEREIDS серебро</p>
+                            <p>40 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_8">
+                                <img src="img/catalog/goods_8_1.jpg" alt="goods_8_1">
+                            </div>
+
+                            <p>Подвеска DANA с Жемчугом серебро</p>
+                            <p>11 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_9">
+                                <img src="img/catalog/goods_9_1.jpg" alt="goods_9_1">
+                            </div>
+
+                            <p>Ожерелье SEREIA с Жемчугом серебро</p>
+                            <p>24 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_10">
+                                <img src="img/catalog/goods_10_1.jpg" alt="goods_10_1">
+                            </div>
+
+                            <p>Серьги LIGEA с Празиолитами и Жемчугом серебро</p>
+                            <p>14 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_11">
+                                <img src="img/catalog/goods_11_1.jpg" alt="goods_11_1">
+                            </div>
+
+                            <p>Подвеска TALIA с карабином серебро</p>
+                            <p>20 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_12">
+                                <img src="img/catalog/goods_12_1.jpg" alt="goods_12_1">
+                            </div>
+
+                            <p>Цепочка CATENA серебро</p>
+                            <p>от  17 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_13">
+                                <img src="img/catalog/goods_13_1.jpg" alt="goods_13_1">
+                            </div>
+
+                            <p>Колье-цепь GAURRI серебро</p>
+                            <p>66 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_14">
+                                <img src="img/catalog/goods_14_1.jpg" alt="goods_14_1">
+                            </div>
+
+                            <p>Колье-цепь GAURRI позолота</p>
+                            <p>85 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_15">
+                                <img src="img/catalog/goods_15_1.jpg" alt="goods_15_1">
+                            </div>
+
+                            <p>Кольцо TEMEYA серебро с лимонным Кварцем</p>
+                            <p>21 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_16">
+                                <img src="img/catalog/goods_16_1.jpg" alt="goods_16_1">
+                            </div>
+
+                            <p>Кольцо TEMEYA позолота с Кварцем</p>
+                            <p>21 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_17">
+                                <img src="img/catalog/goods_17_1.jpg" alt="goods_17_1">
+                            </div>
+
+                            <p>Колье-цепь TERRA серебро</p>
+                            <p>95 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_18">
+                                <img src="img/catalog/goods_18_1.jpg" alt="goods_18_1">
+                            </div>
+
+                            <p>Колье-цепь TERRA позолота</p>
+                            <p>119 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_19">
+                                <img src="img/catalog/goods_19_1.jpg" alt="goods_19_1">
+                            </div>
+
+                            <p>Серьги TERRA серебро</p>
+                            <p>26 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_20">
+                                <img src="img/catalog/goods_20_1.jpg" alt="goods_20_1">
+                            </div>
+
+                            <p>Серьги TERRA позолота</p>
+                            <p>31 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_21">
+                                <img src="img/catalog/goods_21_1.jpg" alt="goods_21_1">
+                            </div>
+
+                            <p>Кольцо PÉTRA серебро</p>
+                            <p>23 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_22">
+                                <img src="img/catalog/goods_22_1.jpg" alt="goods_22_1">
+                            </div>
+
+                            <p>Кольцо FREIYA серебро</p>
+                            <p>10 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_23">
+                                <img src="img/catalog/goods_23_1.jpg" alt="goods_23_1">
+                            </div>
+
+                            <p>Кольцо FREIYA позолота</p>
+                            <p>12 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_24">
+                                <img src="img/catalog/goods_24_1.jpg" alt="goods_24_1">
+                            </div>
+
+                            <p>Браслет TERRA серебро</p>
+                            <p>44 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_25">
+                                <img src="img/catalog/goods_25_1.jpg" alt="goods_25_1">
+                            </div>
+
+                            <p>Браслет TERRA позолота</p>
+                            <p>54 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_26">
+                                <img src="img/catalog/goods_26_1.jpg" alt="goods_26_1">
+                            </div>
+
+                            <p>Кольцо WATU серебро</p>
+                            <p>23 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_27">
+                                <img src="img/catalog/goods_27_1.jpg" alt="goods_27_1">
+                            </div>
+
+                            <p>Кафф MATERIAL серебро</p>
+                            <p>7 290 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_28">
+                                <img src="img/catalog/goods_28.jpg" alt="goods_28">
+                            </div>
+
+                            <p>Кафф MATERIAL позолота</p>
+                            <p>8 690 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_29">
+                                <img src="img/catalog/goods_29_1.jpg" alt="goods_29_1">
+                            </div>
+
+                            <p>Кольцо CYRA серебро</p>
+                            <p>26 490 pуб.</p>
+                        </a>
+
+                    </div>
+
+                    <div class="catalog_page_goods">
+
+                        <a href="Error_page.html">
+                            <div class="catalog_page_goods_images_30">
+                                <img src="img/catalog/goods_30_1.jpg" alt="goods_30_1">
+                            </div>
+
+                            <p>Кольцо CYRA позолота</p>
+                            <p>29 890 pуб.</p>
+                        </a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="catalog_nav">
+                <a href="Catalog.html" class="catalog_nav_checked">1</a>
+                <a href="Error_page.html">2</a>
+                <a href="Error_page.html">3</a>
+                <a href="Error_page.html">4</a>
+                <a href="Error_page.html">5</a>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <footer id="footer">
+        <div class="container">
+          
+            <div class="footer_block">
+                <div class="footer_links_list">
+                    <ul>
+                        <li><a href="Error_page.html">ОПЛАТА И ДОСТАВКА</a></li>
+                        <li><a href="Error_page.html">ВОЗВРАТ, ОБМЕН, ГАРАНТИЯ</a></li>
+                        <li><a href="Error_page.html">УХОД</a></li>
+                        <li><a href="Error_page.html">КОНТАКТЫ</a></li>
+                        <li><a href="https://mineralbar.ru/" target="_blank">ОРИГИНАЛЬНЫЙ САЙТ</a></li>
+                    </ul>
+
+                </div>
+            
+    
+                <div class="footer_social_media">
+                    <div class="footer_social_media_p">
+                        <p>МЫ В СОЦСЕТЯХ</p>
+                    </div>
+        
+                    <div class="footer_social_media_links">
+                        <a href="https://vk.com/the_mineral_bar" target="_blank"><img src="img/icon_vk.png" alt="VK"></a>
+                        <a href="https://t.me/mineral_bar" target="_blank"><img src="img/icon_telegram.png" alt="Telegram"></a>
+                        <a href="https://wa.me/+79688184789" target="_blank"><img src="img/icon_whatsapp.png" alt="WhatsApp"></a>
+                        <a href="https://www.instagram.com/the_mineral_bar/" target="_blank"><img src="img/icon_instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+
+                <div class="footer_contacts">
+                    <p>hello@mineralbar.ru</p>
+                    <p>+7 (968) 818-47-89</p>
+                </div>
+            </div>
+          
+        </div>
+    </footer>
+
+    </body>
+</html>
